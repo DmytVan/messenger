@@ -19,7 +19,7 @@
 | CSS           | Express               |
 | javascript    | Passportjs            |
 | React         | Mongo db              |
-|               | Socket io             |
+| Redux         | Socket io             |
 
 Для повторной аутентификации исользуются токены.
 
