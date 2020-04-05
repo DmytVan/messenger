@@ -1,0 +1,53 @@
+.im-form-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.im-send-form {
+    width: 382px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    left: 70px;
+    right: 72px;
+}
+
+.im-input {
+    min-height: 55px;
+    margin: 10px auto;
+    padding: 1px 15px 1px 19px;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgba(118, 118, 118, 0.3);
+    overflow: auto;
+    white-space: pre-wrap;
+    position: relative;
+    left: -17px;
+    width: calc(100% + 34px);
+    max-height: 284px;
+}
+
+.im-input:focus {
+    border-bottom: 2px solid #5682a3;
+    outline: none;
+}
+
+.send-ms-btn {
+    position: relative;
+    padding-top: 20px;
+    left: 90%;
+    top: 0;
+    color: #499dd9;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.empty-blur::before {
+    content: 'Write a message...';
+    color: grey;
+}

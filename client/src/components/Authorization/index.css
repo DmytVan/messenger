@@ -1,0 +1,45 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.authorizationForm {
+    margin: 70px auto 0 auto;
+    width: 400px;
+    font-size: 22px;
+}
+
+.authorizationForm fieldset {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.authorizationForm input {
+    padding: 3px 20px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+fieldset > input[type=button] {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.authorizationForm label {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.authorizationForm label input {
+    width: 200px;
+    padding: 5px 10px;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}

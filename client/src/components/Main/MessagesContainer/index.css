@@ -1,0 +1,18 @@
+.im-history {
+    width: 100%;
+    max-height: calc(100% - 96px);
+    overflow-y: auto;
+}
+
+.im-history div {
+    width: 100%;
+}
+
+.sender-name {
+    color: #3a6d99;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+
+}
+

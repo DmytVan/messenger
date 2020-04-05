@@ -1,0 +1,60 @@
+.dialog-list a{
+    box-sizing: border-box;
+    display: block;
+    height: 62px;
+    padding: 5px 30px;
+    cursor: pointer;
+    position: relative;
+    max-width: 330px;
+}
+
+.dialog-list a:hover:not(.selectedDialog){
+    background-color: #f2f6fa;
+}
+
+.selectedDialog {
+    background-color: #6490b1;
+}
+
+.new-ms {
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    display: inline-block;
+    background: #64c270;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 11px;
+    min-width: 21px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.dialog-ms-info {
+    max-width: 80%;
+    max-height: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.interlocutor-name {
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+}
+
+.last-dialog {
+    white-space: nowrap;
+    word-break: break-word;
+}
+
+.last-dialog-wrapper {
+    overflow: hidden;
+
+}

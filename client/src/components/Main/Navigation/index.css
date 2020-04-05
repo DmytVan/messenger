@@ -1,0 +1,64 @@
+.modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-btn {
+    color: white;
+}
+
+.modal a {
+    color: black;
+}
+
+.settingsContainer {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.settingsHead {
+    height: 100px;
+    background-color: #5580a3;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.settingsHead a {
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 5px;
+}
+
+.settingsHead h2 {
+    margin: 0 0 10px 0;
+}
+
+.settingsNav {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingsNav ul {
+    width: 180px;
+}
+
+.settingsNav li {
+    margin-top: 30px;
+}
+
+
+
